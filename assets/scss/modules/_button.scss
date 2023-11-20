@@ -1,0 +1,24 @@
+/*=====================================
+Button
+====================================*/
+
+button {
+  width: 100%;
+  padding: rem(12) rem(20);
+
+  background: var(--purple-700);
+  color: var(--white-color);
+
+  border: none;
+  border-radius: 24px;
+
+  outline: none;
+
+  @include transition();
+  @include box-shadow();
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}
